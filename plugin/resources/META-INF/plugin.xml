@@ -1,0 +1,37 @@
+<idea-plugin>
+  <id>de.ur.medieninformatik.timetracker</id>
+  <name>Self Study Visualiser</name>
+  <version>1.0</version>
+  <vendor email="christoph.haertl@stud.uni-regensburg.de" url="">No Company</vendor>
+
+  <description>Self Study Visualiser zeichnet ihr Verhalten während des Programmierens auf und visualisiert diese Daten.</description>
+
+  <change-notes><![CDATA[
+     1.0: Release Version. Basic Implementation.
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+
+  </actions>
+
+  <application-components>
+    <component>
+      <implementation-class>Main</implementation-class>
+    </component>
+  </application-components>
+
+</idea-plugin>
